@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "VXkTSSSI#ZNyHS14eOlaY9vkQIyts_oJv_FbGLGAjOsWFgu6xWM8",
+SESSION_ID: process.env.SESSION_ID || "kTNDVQDY#I5efTVDbg_jA-hBAgreZpKMuaEcDw_xocQpf-eV1Z6U",
 // add your Session Id 
 PREFIX: process.env.PREFIX || ",",
 // add your prifix for bot
@@ -19,7 +19,7 @@ DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "255755930564",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "✧FREDIE✧",
+OWNER_NAME: process.env.OWNER_NAME || "PROSPER",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ✧FREDI MD✧*",
 // add bot owner name    
@@ -55,7 +55,7 @@ OWNER_REACT: process.env.OWNER_REACT || "true",
 // make it true or fasle for only react on owner msg only 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
